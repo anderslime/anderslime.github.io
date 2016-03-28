@@ -1,5 +1,3 @@
-
-// LAYOUT/MODULES
 .site-header
   padding: 30px 60px
   display: flex
@@ -56,7 +54,10 @@
   overflow: scroll
 
 .page-content-body
-  width: $page-width
+  width: 100%
   margin: 0 auto
   padding: 0 15px
 
+@include desktop
+  .page-content-body
+    width: $page-width

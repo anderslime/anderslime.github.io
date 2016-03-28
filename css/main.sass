@@ -2,35 +2,35 @@
 # Main CSS YEAH
 ---
 
-// Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
-$base-font-size:   16px
-$base-font-weight: 400
-$small-font-size:  $base-font-size * 0.875
-$base-line-height: 1.5
-$toned-color: darken(#fff, 10%)
-$link-color: darken(#fff, 60%)
-$text-color: #666
+// Layout
 $page-width: 675px
 
-$spacing-unit:     30px
+// Text
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+$base-font-size: 16px
+$base-font-weight: 400
+$small-font-size: $base-font-size * 0.875
+$base-line-height: 1.7
+$spacing-unit: 30px
 
-$text-color:       #111
+// Colors
+$link-color: #5694f1
+$text-color: #666
+
+$toned-color: darken(#fff, 10%)
 $background-color: #fdfdfd
 $brand-color:      #2a7ae2
 
+$blue-color: #3360A3
 $grey-color:       #828282
 $grey-color-light: lighten($grey-color, 40%)
 $grey-color-dark:  darken($grey-color, 25%)
 
 // Width of the content area
-$content-width:    800px
+$small-break: 768px
 
-$on-palm:          600px
-$on-laptop:        800px
-
-@mixin media-query($device)
-    @media screen and (max-width: $device)
+@mixin desktop
+    @media screen and (min-width: $small-break)
         @content
 
 @import "normalize", "layout", "base", "posts", "labels", "code-highlight"

@@ -14,7 +14,7 @@ problems since Turbolinks distrupts the normal web application load cycle.
 To avoid trouble when using knockout with Turbolinks i replaced the normal
 *ko.applyBindings* with
 
-```javascript
+{% highlight javascript %}
 window.applyTurboBindings = function(node, viewModelAccessor) {
   return $(document).one("page:change", function() {
     if (!(node && ko.dataFor(node))) {
@@ -22,16 +22,15 @@ window.applyTurboBindings = function(node, viewModelAccessor) {
     }
   });
 };
-```
+{% endhighlight %}
 
 that can be used with:
 
-```javascript
+{% highlight javascript %}
 applyTurboBindings(document.getElementById('my-node'), function() {
   return new MyViewModel();
 });
-
-```
+{% endhighlight %}
 
 
 ## So what is Turbolinks?
@@ -64,7 +63,7 @@ The normal flow for setting up knockout bindings is that you have a DOM node
 that contains the `data-bind`-declarations and your view model class or
 function on which you call `ko.applyBindings` as following:
 
-```html
+{% highlight html %}
 <div id="my-node">
   <input data-bind="value: catName" />
   <div>Your cat's name is: <span data-bind="text: catName"></span></div>
@@ -79,7 +78,7 @@ function on which you call `ko.applyBindings` as following:
     ko.applyBindings(new CatViewModel(), node);
   });
 </script>
-```
+{% endhighlight %}
 
 This code is a simple input field and an element that tell's what your cat's
 name is based on what you type in the input field. In order to map the
@@ -95,18 +94,18 @@ pages through Turbolinks. The most approriate for this purpose is the
 `page:change`-event, which is fired after the body has been replaced after a
 page change. With this information we try to apply bindings with the code:
 
-```javascript
+{% highlight javascript %}
 $(document).on("page:change", function() {
   var node = document.getElementById("my-node");
   ko.applyBindings(new CatViewModel(), node);
 });
+{% endhighlight %}
 
-```
 Although this seems perfect there is one problem:
 
-```
+{% highlight md %}
 Uncaught Error: You cannot apply bindings multiple times to the same element
-```
+{% endhighlight %}
 
 Yep, the ko.applyBindings method is not idempotent, which means when you try
 to execute it on the same DOM node twice it explodes with this error. And
@@ -124,7 +123,7 @@ ensure the event is only triggered once.
 
 This leads to the final solution:
 
-```javascript
+{% highlight javascript %}
 window.applyTurboBindings = function(node, viewModelAccessor) {
   return $(document).one("page:change", function() {
     if (!(node && ko.dataFor(node))) {
@@ -132,4 +131,4 @@ window.applyTurboBindings = function(node, viewModelAccessor) {
     }
   });
 };
-```
+{% endhighlight %}
