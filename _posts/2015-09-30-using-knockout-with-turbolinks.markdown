@@ -2,10 +2,12 @@
 layout: post
 title:  "Using Knockout.js with Turbolinks"
 description: Code snippet for making Knockout.js work with Turbolinks
+teaser: I'm currently working on a project that uses Turbolinks and KnockoutJS together, which gave some initial problems since Turbolinks distrupts the normal web application load cycle.
 date: 2015-09-30
+categories: turbolinks knockoutjs javascript rails
 ---
 
-I'm currently working on a project that use
+I'm currently working on a project that uses
 [Turbolinks](https://github.com/rails/turbolinks) and
 [KnockoutJS](https://knockoutjs.com) together, which gave some initial
 problems since Turbolinks distrupts the normal web application load cycle.

@@ -1,15 +1,13 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: About me
+description: What i do, my specs and résumé
+permalink: /about
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I'm currently writing my Computer Science thesis at the Technical University of Denmark while working on my company <a href="https://goodiepack.com" target="_blank">GoodiePack</a>.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+I've previously worked at <a href="https://lokalebasen.dk" target="_blank">Lokalebasen.dk A/S</a> and Co-Founded MyModo.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+I spent most of my time living, drinking coffee and develop awesome stuff for people to use.
+

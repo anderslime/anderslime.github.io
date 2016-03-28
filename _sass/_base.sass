@@ -41,7 +41,7 @@ html
 
 body
   height: 100%
-  font: 16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif
+  font: $base-font-size "Helvetica Neue", Helvetica, Arial, sans-serif
   color: #666
   -webkit-font-smoothing: antialiased
   text-rendering: optimizeLegibility
@@ -184,5 +184,10 @@ span.code
   background-color: #EEE
   font-size: 14px
 
-.highlighter-rouge, p, .highlight
+p, .highlight
   margin-bottom: 25px
+
+.highlight
+  +natural-page-width
+
+
