@@ -1,37 +1,6 @@
-$text-color: #666
-$link-color: darken(#fff, 60%)
+$page-width: 675px
 
-html
-  height: 100%
-
-// body
-//   font: 16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif
-//   -webkit-font-smoothing: antialiased
-//   text-rendering: optimizeLegibility
-//   line-height: 1
-
-body, html
-  font-family: "Helvetica Neue", Helvetica, Arial
-  font-weight: 400
-  height: 100%
-
-a
-  text-decoration: none
-
-  &:link, &:visited
-    color: $link-color
-
-  &:hover, &:active, &:focus
-    color: black
-
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5,
-h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub,
-sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset,
-form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, figure, figcaption, footer,
-header, hgroup, menu, nav, output, ruby, section, summary, time,
-mark, audio, video
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
   border: 0
   font-size: 100%
   font: inherit
@@ -39,9 +8,11 @@ mark, audio, video
   margin: 0
   padding: 0
 
-article, aside, details, figcaption, figure, footer, header, hgroup,
-menu, nav, section
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
   display: block
+
+body
+  line-height: 1
 
 blockquote, q
   quotes: none
@@ -58,11 +29,14 @@ table
   border-collapse: collapse
   border-spacing: 0
 
-h1
-  font-size: 30px
-  letter-spacing: -1px
-  color: #222
-  font-weight: bold
+*
+  -moz-box-sizing: border-box
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+  &:before, &:after
+    -moz-box-sizing: border-box
+    -webkit-box-sizing: border-box
+    box-sizing: border-box
 
 .clearfix:after
   content: ""
@@ -72,10 +46,145 @@ h1
 .hidden
   display: none
 
-.post h3, h4, h5, p,
-.post-body ul,
-#post-list li, pre
+@font-face
+  font-family: 'icons'
+  src: url('../fonts/icons.eot')
+  src: url('../fonts/icons.eot#iefix') format("embedded-opentype"), url('../fonts/icons.woff') format("woff"), url('../fonts/icons.ttf') format("truetype"), url('../fonts/icons.svg#icons') format("svg")
+  font-weight: normal
+  font-style: normal
+
+
+[class^="icon-"]:before, [class*=" icon-"]:before
+  font-family: "icons"
+  font-style: normal
+  font-weight: normal
+  speak: none
+  display: inline-block
+  text-decoration: inherit
+  text-align: center
+  font-variant: normal
+  text-transform: none
+  line-height: 1em
+
+.icon-facebook:before
+  content: '\e802'
+
+.icon-facebook-squared:before
+  content: '\e800'
+
+.icon-twitter:before
+  content: '\e801'
+
+.icon-twitter-1:before
+  content: '\e804'
+
+.icon-facebook-circled:before
+  content: '\e805'
+
+.icon-twitter-circled:before
+  content: '\e806'
+
+.icon-facebook-rect:before
+  content: '\e803'
+
+.copyright
+  float: left
+
+.social-icons
+  float: right
+
+.social-icon
+  width: 25px
+
+.post h1, h3, h4, h5, p, .post-body ul, #post-list li, pre
   margin-bottom: 20px
+
+
+html
+  height: 100%
+
+body
+  height: 100%
+  font: 16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif
+  color: #666
+  -webkit-font-smoothing: antialiased
+  text-rendering: optimizeLegibility
+
+h1
+  font-size: 30px
+  letter-spacing: -1px
+  color: #222
+  font-weight: bold
+
+h2
+  font: italic 19px/1.3em Georgia,serif
+  color: #bbb
+
+.profile
+  #wrapper
+    padding: 100px 40px 0px
+    max-width: $page-width
+    margin: 0 auto
+  #header
+    border-bottom: 1px solid #eee
+    margin-bottom: 40px
+    padding-bottom: 40px
+    text-align: center
+    position: relative
+  #avatar
+    display: inline-block
+    width: 80px
+    height: 80px
+    border-radius: 50%
+    margin-bottom: 20px
+  h1
+    font-weight: 400
+    letter-spacing: 0px
+    font-size: 20px
+    color: #222
+  h2
+    font-size: 20px
+    font-weight: 300
+    color: #aaa
+    margin-top: 10px
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
+    font-style: normal
+
+nav.main-nav
+  padding: 20px 20px 0
+  background: #fff
+  background: rgba(255, 255, 255, 0.9)
+  margin: 0 auto
+  text-align: right
+  z-index: 100
+  a
+    top: 8px
+    right: 6px
+    padding: 8px 12px
+    color: #5badf0
+    font-size: 13px
+    line-height: 1.35
+    border-radius: 3px
+    &.cta
+      background: #5badf0
+      color: #fff
+      margin-left: 12px
+
+#wrapper
+  max-width: $page-width
+  margin: 0 auto
+  padding: 60px 40px 100px 40px
+  &.home
+    max-width: $page-width
+    margin: 0 auto
+    padding: 0px 40px 20px 40px
+
+.home #avatar
+  float: right
+  width: 40px
+  height: 40px
+  border-radius: 50%
+
 
 a, #title
   text-decoration: none
@@ -144,13 +253,25 @@ em, i
     font: italic 19px/1.3em Georgia,serif
     color: #bbb
 
-.post-header
-  margin-bottom: 20px
-
-.post-title
-  margin-bottom: 5px
-  color: #222
-  font: 300 32px/1.4em "Helvetica Neue", Helvetica,Arial,sans-serif
+.post
+  header
+    text-align: center
+  h1
+    margin-bottom: 20px
+    color: #222
+    font: 300 32px/1.4em "Helvetica Neue", Helvetica,Arial,sans-serif
+  h2
+    margin-bottom: 40px
+    font: 300 24px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif
+    color: #111
+    &.headline
+      font: normal 13px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif
+      margin: -5px 0 40px 0
+      color: #b2b9be
+      font-size: 13px
+      text-transform: uppercase
+      letter-spacing: 2px
+      display: inline-block
 
 #post-list h2
   font: normal 17px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif

@@ -13,3 +13,4 @@ author:
 
 # Build settings
 markdown: kramdown
+highlighter: rouge

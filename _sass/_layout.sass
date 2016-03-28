@@ -1,29 +1,10 @@
-$other-color: darken(#fff, 10%)
-$link-color: darken(#fff, 60%)
-$text-color: #000
-
-
-// BASE
-body, html
-  font-family: "Helvetica Neue", Helvetica, Arial
-  font-weight: 400
-  height: 100%
-
-a
-  text-decoration: none
-
-  &:link, &:visited
-    color: $link-color
-
-  &:hover, &:active, &:focus
-    color: black
 
 // LAYOUT/MODULES
 .site-header
   padding: 30px 60px
   display: flex
   justify-content: center
-  border-bottom: 1px solid $other-color
+  border-bottom: 1px solid $toned-color
 
 .site-header-image
   width: 40px
@@ -46,7 +27,6 @@ a
 
 .page-container
   position: relative
-  height: 100%
 
 .page-container:after
   bottom: 100%
@@ -57,27 +37,26 @@ a
   width: 0
   position: absolute
   pointer-events: none
-  border-color: rgba($other-color, 0)
-  border-bottom-color: $other-color
+  border-color: rgba($toned-color, 0)
+  border-bottom-color: $toned-color
   border-width: 15px
   margin-left: -15px
 
 .navbar
   display: flex
   justify-content: center
-  border-bottom: 1px solid $other-color
+  border-bottom: 1px solid $toned-color
 
 .navbar-link
   display: inline-block
   padding: 20px 15px
 
 .page-content
-  height: 100%
-  background-color: #F7F8FB
   padding-top: 15px
+  overflow: scroll
 
 .page-content-body
-  width: 800px
+  width: $page-width
   margin: 0 auto
   padding: 0 15px
 
