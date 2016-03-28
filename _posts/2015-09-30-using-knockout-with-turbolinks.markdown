@@ -17,9 +17,7 @@ To avoid trouble when using knockout with Turbolinks i replaced the normal
 {% highlight javascript %}
 window.applyTurboBindings = function(node, viewModelAccessor) {
   return $(document).one("page:change", function() {
-    if (!(node && ko.dataFor(node))) {
-      return ko.applyBindings(viewModelAccessor(), node);
-    }
+    return ko.applyBindings(viewModelAccessor(), node);
   });
 };
 {% endhighlight %}
@@ -126,9 +124,7 @@ This leads to the final solution:
 {% highlight javascript %}
 window.applyTurboBindings = function(node, viewModelAccessor) {
   return $(document).one("page:change", function() {
-    if (!(node && ko.dataFor(node))) {
-      return ko.applyBindings(viewModelAccessor(), node);
-    }
+    return ko.applyBindings(viewModelAccessor(), node);
   });
 };
 {% endhighlight %}
