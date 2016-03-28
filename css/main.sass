@@ -15,11 +15,14 @@ $spacing-unit: 30px
 
 // Colors
 $link-color: #5694f1
-$text-color: #666
+$text-color: #444
+$beige-light-color: #FBFAF6
+$beige-color: #F4F1E6
+$beige-dark-color: #E1D8B7
 
 $toned-color: darken(#fff, 10%)
-$background-color: #fdfdfd
 $brand-color:      #2a7ae2
+$background-color: $beige-light-color
 
 $blue-color: #3360A3
 $grey-color: #828282
@@ -29,6 +32,9 @@ $heading-color: #222
 
 // Width of the content area
 $small-break: 768px
+
+body
+  background-color: $background-color
 
 @mixin desktop
   @media screen and (min-width: $small-break)
