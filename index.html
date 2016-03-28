@@ -14,10 +14,12 @@ layout: default
     {% for post in site.posts %}
       <li class="post-list-item">
         <h2 class="post-list-item-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        {% for category in post.categories %}
-          <span class="label label-default">{{ category }}</span>
-        {% endfor %}
+        <span class="post-meta">
+          <span class="post-meta-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+          {% for category in post.categories %}
+            <span class="label label-default">{{ category }}</span>
+          {% endfor %}
+        </span>
         <p class="post-teaser">{% if post.teaser %}{{ post.teaser }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 200 }}{% endif %}</p>
         <a class="post-read-more-link" href="{{ post.url | prepend: site.baseurl }}">Read more &rarr;</a>
       </li>
