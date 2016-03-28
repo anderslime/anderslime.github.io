@@ -1,37 +1,6 @@
-$text-color: #666
-$link-color: darken(#fff, 60%)
+$page-width: 675px
 
-html
-  height: 100%
-
-// body
-//   font: 16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif
-//   -webkit-font-smoothing: antialiased
-//   text-rendering: optimizeLegibility
-//   line-height: 1
-
-body, html
-  font-family: "Helvetica Neue", Helvetica, Arial
-  font-weight: 400
-  height: 100%
-
-a
-  text-decoration: none
-
-  &:link, &:visited
-    color: $link-color
-
-  &:hover, &:active, &:focus
-    color: black
-
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5,
-h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub,
-sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset,
-form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, figure, figcaption, footer,
-header, hgroup, menu, nav, output, ruby, section, summary, time,
-mark, audio, video
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
   border: 0
   font-size: 100%
   font: inherit
@@ -39,9 +8,11 @@ mark, audio, video
   margin: 0
   padding: 0
 
-article, aside, details, figcaption, figure, footer, header, hgroup,
-menu, nav, section
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
   display: block
+
+body
+  line-height: 1
 
 blockquote, q
   quotes: none
@@ -58,50 +29,41 @@ table
   border-collapse: collapse
   border-spacing: 0
 
+*
+  -moz-box-sizing: border-box
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+  &:before, &:after
+    -moz-box-sizing: border-box
+    -webkit-box-sizing: border-box
+    box-sizing: border-box
+
+html
+  height: 100%
+
+body
+  height: 100%
+  font: 16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif
+  color: #666
+  -webkit-font-smoothing: antialiased
+  text-rendering: optimizeLegibility
+
 h1
   font-size: 30px
   letter-spacing: -1px
   color: #222
   font-weight: bold
 
-.clearfix:after
-  content: ""
-  display: table
-  clear: both
+h2
+  font: italic 19px/1.3em Georgia,serif
+  color: #bbb
 
-.hidden
-  display: none
-
-.post h3, h4, h5, p,
-.post-body ul,
-#post-list li, pre
-  margin-bottom: 20px
-
-a, #title
+a
   text-decoration: none
-  color: #5badf0
-  color: #5694f1
-
-#post-list
-  a:hover, li:hover .dates
-    text-decoration: none
-    color: #5badf0
-    color: #5694f1
-
-#title:hover
-  text-decoration: none
-  color: #5badf0
   color: #5694f1
 
 p a
   color: #5694f1
-
-a, #post-nav a, #post-list a
-  -webkit-transition: all 0.15s ease
-  -moz-transition: all 0.15s ease
-  -ms-transition: all 0.15s ease
-  -o-transition: all 0.15s ease
-  transition: all 0.15s ease
 
 ul
   margin: 0
@@ -111,7 +73,7 @@ li
   list-style-type: circle
   list-style-position: inside
 
-#post-body, p
+p, li
   line-height: 1.7
 
 b, strong
@@ -121,42 +83,6 @@ b, strong
 em, i
   font-style: italic
 
-#title
-  display: inline-block
-  line-height: 100%
-  font-weight: 500
-  font-size: 19px
-  margin: 0
-  padding-bottom: 20px
-
-.description
-  float: right
-  font: italic 14px/1.4em Georgia,serif
-  color: #aaa
-
-.home
-  h1
-    font-size: 30px
-    letter-spacing: -1px
-    color: #222
-    font-weight: bold
-  h2
-    font: italic 19px/1.3em Georgia,serif
-    color: #bbb
-
-.post-header
-  margin-bottom: 20px
-
-.post-title
-  margin-bottom: 5px
-  color: #222
-  font: 300 32px/1.4em "Helvetica Neue", Helvetica,Arial,sans-serif
-
-#post-list h2
-  font: normal 17px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif
-  color: #aaa
-  max-width: 400px
-  margin-top: 2px
 
 h3, h4, h5
   color: #333
@@ -179,12 +105,6 @@ h6
   color: #666
   margin-bottom: 6px
 
-p.small
-  color: #bbb
-  font-size: 14px
-  line-height: 1.5
-  display: block
-
 blockquote
   padding-left: 15px
   border-left: 3px solid #eee
@@ -195,11 +115,6 @@ hr
   height: 1px
   margin: 40px auto
   background: #eee
-
-span.code
-  font-family: Menlo, Monaco, Courier
-  background-color: #EEE
-  font-size: 14px
 
 pre
   font-family: Menlo, Monaco, Courier
@@ -255,229 +170,24 @@ img
   max-width: 100%
   border-radius: 3px
 
-#badge
-  position: absolute
-  bottom: 8px
-  right: 8px
-  height: 48px
-  width: 48px
+.clearfix:after
+  content: ""
+  display: table
+  clear: both
 
-/*=========================================
- *Post List
- *=========================================== */
+.hidden
+  display: none
 
-#post-list, #archive-list
-  margin-top: 100px
+p.small
+  color: #bbb
+  font-size: 14px
+  line-height: 1.5
+  display: block
 
-#post-list li, #archive-list li
-  list-style-type: none
+span.code
+  font-family: Menlo, Monaco, Courier
+  background-color: #EEE
+  font-size: 14px
 
-#post-list
-  li
-    &:last-child
-      margin-bottom: 0
-    + li
-      padding-top: 20px
-      border-top: 1px solid #eee
-  a
-    color: #333
-    display: block
-    font: bold 19px/1.7 "Helvetica Neue",helvetica,Arial,sans-serif
-  .dates
-    float: right
-    position: relative
-    top: 1px
-    font: 300 17px/1.8 "Helvetica Neue",helvetica,Arial,sans-serif
-    color: #bbb
-
-#post-list-footer
-  border-top: 1px solid #eee
-  margin-top: 20px
-  padding-top: 100px
-
-#archive-link
-  display: inline-block
-  font-size: 13px
-  font-weight: bold
-  border-radius: 4px
-  padding: 3px 10px 6px
-  box-shadow: 0 0 0 1px hsla(207, 83%, 80%, 1)
-  &:hover
-    background: #5694f1
-    color: #fff
-    box-shadow: 0 0 0 1px #5694f1
-  span
-    position: relative
-    top: 0
-    font-size: 17px
-
-#footer
-  box-shadow: inset 0 1px 0 #eee
-  padding: 40px 0 0 0
-  margin-top: 100px
-
-#header
-  border-bottom: 1px solid #eee
-
-.post
-  margin: 80px 0 0 0
-
-#post-meta
-  font-size: 13px
-  font-weight: bold
-  line-height: 1.4
-  border-top: 1px solid #eee
-  padding-top: 40px
-  margin-bottom: 40px
-  padding-bottom: 40px
-  margin-top: 40px
-  color: #444
-  border-bottom: 1px solid #eee
-  div
-    span
-      color: #aaa
-      font-weight: 500
-      display: block
-      &.dark
-        color: #1E2025
-    margin: 0 25px 0 0
-    float: left
-
-#sharing
-  float: right
-  margin: -2px
-  a
-    font-size: 20px
-    font-size: 23px
-    margin-left: 1px
-    margin-top: 4px
-    color: #d4d4d4
-    display: inline-block
-    vertical-align: middle
-    &:hover
-      opacity: 0.8
-
-
-#post-nav
-  border-top: 1px solid #eee
-  text-align: center
-  padding-top: 20px
-  font-size: 13px
-  font-weight: 500
-  margin-top: 40px
-  span
-    -webkit-transition: all 0.1s linear
-    -moz-transition: all 0.1s linear
-    -ms-transition: all 0.1s linear
-    -o-transition: all 0.1s linear
-    transition: all 0.1s linear
-    position: relative
-    &.prev
-      float: left
-    &.next
-      float: right
-    .arrow
-      position: relative
-      padding: 1px
-    &.prev:hover .arrow
-      left: -4px
-    &.next:hover .arrow
-      right: -4px
-    &.prev:hover
-      left: -3px
-    &.next:hover
-      right: -3px
-
-h1.archive
-  margin-bottom: 0px
-
-h2.month
-  width: 100%
-  font: bold 13px/1 "Helvetica Neue",helvetica,Arial,sans-serif
-  text-transform: uppercase
-  margin-top: 40px
-  margin-bottom: 10px
-  padding-bottom: 10px
-  border-bottom: 1px solid #eee
-
-#archive-list
-  li:last-child
-    margin-bottom: 0
-  a
-    display: block
-    font: bold 17px/1.7 "Helvetica Neue",helvetica,Arial,sans-serif
-    color: #333
-  .dates
-    float: right
-    position: relative
-    top: 1px
-    font: 300 17px/1.7 "Helvetica Neue",helvetica,Arial,sans-serif
-    color: #bbb
-  li
-    a:hover, &:hover .dates
-      color: #5694f1
-
-#post-meta img.avatar
-  height: 36px
-  width: 36px
-  float: left
-  border-radius: 50%
-  margin-top: 3px
-  margin-right: 20px
-  box-shadow: 0 0 0 3px #fff, 0 0 0 4px #eee
-
-#post-list.archive.readmore
-  h3
-    font: 400 20px "Helvetica Neue", Helvetica,Arial,sans-serif
-    margin-bottom: 30px
-  a
-    font: 400 16px/1.6 "Helvetica Neue",helvetica,Arial,sans-serif
-    color: #5694f1
-    &:hover
-      opacity: 0.8
-  .dates
-    font: 300 16px/1.6 "Helvetica Neue",helvetica,Arial,sans-serif
-
-#sharing a
-  &.facebook
-    background: #4361b3
-  &.twitter
-    background: #4fafed
-  font-size: 20px
-  font-size: 13px
-  font-weight: bold
-  color: #fff
-  padding: 6px 10px
-  border-radius: 4px
-  margin-left: 2px
-
-@media screen and (max-width: 540px)
-  #wrapper
-    padding: 20px 20px 20px 20px
-  #header
-    margin-bottom: 60px
-    border-bottom: 1px solid #eee
-  .post
-    margin: 40px 0
-  #footer
-    margin-top: 60px
-  #post-list, #archive-list
-    margin-top: 0
-  #post-meta
-    margin-top: 60px
-  #title
-    font-size: 17px
-  #post-list .dates
-    display: none
-  #post-list-footer
-    margin-top: 20px
-    padding-top: 40px
-  h1
-    font-size: 26px
-  .post
-    h2.headline
-      font-size: 13px
-    h1
-      font-size: 24px
-    h2
-      font-size: 20px
+.highlighter-rouge, p
+  margin-bottom: 25px
