@@ -157,12 +157,29 @@ I spent most of my time living, drinking coffee and develop awesome stuff for pe
     <h3>Peergrade.io</h3>
     <h4>Web Developer</h4>
     <h5>January 2016 - Present</h5>
+    <div>
+      <span class="label label-python">python</span>
+      <span class="label label-python">flask</span>
+      <span class="label label-javascript">javascript</span>
+      <span class="label label-javascript">knockout.js</span>
+    </div>
   </div>
 
   <div class="resume-point">
     <h3>Lokalebasen.dk A/S</h3>
     <h4>Web Developer</h4>
     <h5>July 2012 - November 2015</h5>
+    <div>
+      <span class="label label-ruby">ruby on rails</span>
+      <span class="label label-elixir">elixir</span>
+      <span class="label label-phoenix">phoenix</span>
+      <span class="label label-javascript">javascript</span>
+      <span class="label label-javascript">knockout.js</span>
+      <span class="label label-javascript">coffeescript</span>
+      <span class="label label-postgresql">postgresql</span>
+      <span class="label label-couchdb">couchdb</span>
+      <span class="label label-docker">docker</span>
+    </div>
   </div>
 
   <div class="resume-point">
