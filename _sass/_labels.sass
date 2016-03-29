@@ -14,7 +14,7 @@ $label-link-hover-color: #fff
 .label
   display: inline
   padding: .2em .6em .3em
-  font-size: 0.5rem
+  font-size: 0.7rem
   font-weight: bold
   line-height: 1
   color: $label-color
@@ -38,16 +38,29 @@ a.label
     cursor: pointer
 
 .label-default
-  @include label-variant(#C4C3C3)
+  @include label-variant(#337ab7)
 
 .label-javascript
-  @include label-variant(#f1e05a)
+  @include label-variant($javascript-color)
+  color: #000000
 
 .label-python
-  @include label-variant(#3572A5)
+  @include label-variant($python-color)
 
 .label-ruby
-  @include label-variant(#801628)
+  @include label-variant($ruby-color)
+
+.label-elixir
+  @include label-variant($elixir-color)
+
+.label-phoenix
+  @include label-variant($phoenix-color)
+
+.label-ember
+  @include label-variant($ember-color)
+
+.label-redis
+  @include label-variant(#8C1934)
 
 .label-mongo
   @include label-variant(#439C63)
@@ -61,14 +74,12 @@ a.label
 .label-postgresql
   @include label-variant(#3B4D59)
 
-.label-elixir
-  @include label-variant(#6e4a7e)
-
-.label-phoenix
-  @include label-variant(#CA4844)
-
 .label-docker
   @include label-variant(#4D96A1)
 
 .label-couchdb
   @include label-variant(#B83247)
+
+.label-objectivec,
+.label-ios
+  @include label-variant(#53c1fa)

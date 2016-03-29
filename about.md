@@ -57,8 +57,8 @@ I spent most of my time living, drinking coffee and develop awesome stuff for pe
 <div class="about-code-projects">
   <div class="about-code-project">
     <div class="about-code-project-info">
-      <h3 class="about-code-project-titel">Raft Simulator(ft-raft)</h3>
-      <div>
+      <h3 class="about-code-project-titel">Raft Simulator (ft-raft)</h3>
+      <div class="about-tags">
         <span class="label label-javascript">javascript</span>
         <span class="label label-javascript">node.js</span>
         <span class="label label-default">distributed systems</span>
@@ -74,7 +74,7 @@ I spent most of my time living, drinking coffee and develop awesome stuff for pe
   <div class="about-code-project">
     <div class="about-code-project-info">
       <h3 class="about-code-project-titel">CV Kickstarter</h3>
-      <div>
+      <div class="about-tags">
         <span class="label label-python">python</span>
         <span class="label label-python">flask</span>
         <span class="label label-default">data mining</span>
@@ -91,7 +91,7 @@ I spent most of my time living, drinking coffee and develop awesome stuff for pe
   <div class="about-code-project">
     <div class="about-code-project-info">
       <h3 class="about-code-project-titel">MarkTex</h3>
-      <div>
+      <div class="about-tags">
         <span class="label label-javascript">javascript</span>
         <span class="label label-javascript">node.js</span>
         <span class="label label-mongo">mongodb</span>
@@ -118,7 +118,7 @@ I spent most of my time living, drinking coffee and develop awesome stuff for pe
   <div class="about-code-project">
     <div class="about-code-project-info">
       <h3 class="about-code-project-titel">Moviz</h3>
-      <div>
+      <div class="about-tags">
         <span class="label label-ruby">ruby on rails</span>
         <span class="label label-python">python</span>
         <span class="label label-javascript">javascript</span>
@@ -136,7 +136,7 @@ I spent most of my time living, drinking coffee and develop awesome stuff for pe
   <div class="about-code-project">
     <div class="about-code-project-info">
       <h3 class="about-code-project-titel">DTU Kursusbase</h3>
-      <div>
+      <div class="about-tags">
         <span class="label label-ruby">ruby on rails</span>
         <span class="label label-javascript">javascript</span>
         <span class="label label-postgresql">postgresql</span>
@@ -154,12 +154,30 @@ I spent most of my time living, drinking coffee and develop awesome stuff for pe
 <h2>Work</h2>
 <div class="resume-stuff">
   <div class="resume-point">
+    <h3>GoodiePack</h3>
+    <h4>Co-Founder and CTO</h4>
+    <h5>June 2015 - Present</h5>
+    <div class="about-tags">
+      <span class="label label-ruby">ruby on rails</span>
+      <span class="label label-elixir">elixir</span>
+      <span class="label label-phoenix">phoenix</span>
+      <span class="label label-postgresql">postgresql</span>
+      <span class="label label-redis">redis</span>
+      <span class="label label-javascript">javascript</span>
+      <span class="label label-javascript">knockout.js</span>
+      <span class="label label-ember">ember.js</span>
+    </div>
+  </div>
+
+  <div class="resume-point">
     <h3>Peergrade.io</h3>
     <h4>Web Developer</h4>
     <h5>January 2016 - Present</h5>
-    <div>
+    <div class="about-tags">
       <span class="label label-python">python</span>
       <span class="label label-python">flask</span>
+      <span class="label label-redis">redis</span>
+      <span class="label label-mongo">mongodb</span>
       <span class="label label-javascript">javascript</span>
       <span class="label label-javascript">knockout.js</span>
     </div>
@@ -169,7 +187,7 @@ I spent most of my time living, drinking coffee and develop awesome stuff for pe
     <h3>Lokalebasen.dk A/S</h3>
     <h4>Web Developer</h4>
     <h5>July 2012 - November 2015</h5>
-    <div>
+    <div class="about-tags">
       <span class="label label-ruby">ruby on rails</span>
       <span class="label label-elixir">elixir</span>
       <span class="label label-phoenix">phoenix</span>
@@ -179,6 +197,19 @@ I spent most of my time living, drinking coffee and develop awesome stuff for pe
       <span class="label label-postgresql">postgresql</span>
       <span class="label label-couchdb">couchdb</span>
       <span class="label label-docker">docker</span>
+    </div>
+  </div>
+
+  <div class="resume-point">
+    <h3>MyModo</h3>
+    <h4>Co-Founder, Mobile and Web Developer</h4>
+    <h5>February 2013 - April 2014</h5>
+    <div class="about-tags">
+      <span class="label label-ruby">ruby on rails</span>
+      <span class="label label-mongo">mongodb</span>
+      <span class="label label-redis">redis</span>
+      <span class="label label-objectivec">objective-c</span>
+      <span class="label label-ios">ios</span>
     </div>
   </div>
 
