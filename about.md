@@ -64,7 +64,7 @@ I spent most of my time living, drinking coffee and develop awesome stuff for pe
         <span class="label label-default">distributed systems</span>
         <span class="label label-default">raft</span>
       </div>
-      <p class="about-code-project-description">Some description</p>
+      <p class="about-code-project-description"></p>
       <a href="https://github.com/anderslime/ft-raft" target="_blank">
         <i class="fa fa-github text-color"></i>
         anderslime/ft-raft
@@ -81,7 +81,7 @@ I spent most of my time living, drinking coffee and develop awesome stuff for pe
         <span class="label label-heroku">heroku</span>
         <span class="label label-bootstrap">bootstrap</span>
       </div>
-      <p class="about-code-project-description">Some description</p>
+      <p class="about-code-project-description"></p>
       <a href="https://github.com/madsbf/cv-kickstarter" target="_blank">
         <i class="fa fa-github text-color"></i>
         madsbf/cv-kickstarter
@@ -100,7 +100,7 @@ I spent most of my time living, drinking coffee and develop awesome stuff for pe
         <span class="label label-heroku">heroku</span>
         <span class="label label-bootstrap">bootstrap</span>
       </div>
-      <p class="about-code-project-description">Some description</p>
+      <p class="about-code-project-description"></p>
       <a href="https://github.com/anderslime/marktex" target="_blank">
         <i class="fa fa-github text-color"></i>
         anderslime/marktex
@@ -126,7 +126,7 @@ I spent most of my time living, drinking coffee and develop awesome stuff for pe
         <span class="label label-bootstrap">bootstrap</span>
         <span class="label label-heroku">heroku</span>
       </div>
-      <p class="about-code-project-description">Some description</p>
+      <p class="about-code-project-description"></p>
       <a href="https://github.com/anderslime/MoviZ" target="_blank">
         <i class="fa fa-github text-color"></i>
         anderslime/MoviZ
@@ -143,7 +143,7 @@ I spent most of my time living, drinking coffee and develop awesome stuff for pe
         <span class="label label-default">data mining</span>
         <span class="label label-heroku">heroku</span>
       </div>
-      <p class="about-code-project-description">Some description</p>
+      <p class="about-code-project-description"></p>
       <a href="https://github.com/jokklan/kursusbase2012" target="_blank">
         <i class="fa fa-github text-color"></i>
         jokklan/kursusbase2012
