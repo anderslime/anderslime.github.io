@@ -57,11 +57,10 @@ I spent most of my time living, drinking coffee and develop awesome stuff for pe
 <div class="about-code-projects">
   <div class="about-code-project">
     <div class="about-code-project-info">
-      <h3 class="about-code-project-titel">Raft Simulation (ft-raft)</h3>
+      <h3 class="about-code-project-titel">Raft Simulator(ft-raft)</h3>
       <div>
         <span class="label label-javascript">javascript</span>
         <span class="label label-javascript">node.js</span>
-        <span class="label label-heroku">heroku</span>
         <span class="label label-default">distributed systems</span>
         <span class="label label-default">raft</span>
       </div>
@@ -78,8 +77,9 @@ I spent most of my time living, drinking coffee and develop awesome stuff for pe
       <div>
         <span class="label label-python">python</span>
         <span class="label label-python">flask</span>
-        <span class="label label-heroku">heroku</span>
         <span class="label label-default">data mining</span>
+        <span class="label label-heroku">heroku</span>
+        <span class="label label-bootstrap">bootstrap</span>
       </div>
       <p class="about-code-project-description">Some description</p>
       <a href="https://github.com/madsbf/cv-kickstarter" target="_blank">
@@ -95,9 +95,10 @@ I spent most of my time living, drinking coffee and develop awesome stuff for pe
         <span class="label label-javascript">javascript</span>
         <span class="label label-javascript">node.js</span>
         <span class="label label-mongo">mongodb</span>
-        <span class="label label-heroku">heroku</span>
         <span class="label label-default">websockets</span>
         <span class="label label-default">operational transform</span>
+        <span class="label label-heroku">heroku</span>
+        <span class="label label-bootstrap">bootstrap</span>
       </div>
       <p class="about-code-project-description">Some description</p>
       <a href="https://github.com/anderslime/marktex" target="_blank">
@@ -121,8 +122,9 @@ I spent most of my time living, drinking coffee and develop awesome stuff for pe
         <span class="label label-ruby">ruby on rails</span>
         <span class="label label-python">python</span>
         <span class="label label-javascript">javascript</span>
-        <span class="label label-heroku">heroku</span>
         <span class="label label-default">data mining</span>
+        <span class="label label-bootstrap">bootstrap</span>
+        <span class="label label-heroku">heroku</span>
       </div>
       <p class="about-code-project-description">Some description</p>
       <a href="https://github.com/anderslime/MoviZ" target="_blank">
@@ -137,8 +139,9 @@ I spent most of my time living, drinking coffee and develop awesome stuff for pe
       <div>
         <span class="label label-ruby">ruby on rails</span>
         <span class="label label-javascript">javascript</span>
-        <span class="label label-heroku">heroku</span>
+        <span class="label label-postgresql">postgresql</span>
         <span class="label label-default">data mining</span>
+        <span class="label label-heroku">heroku</span>
       </div>
       <p class="about-code-project-description">Some description</p>
       <a href="https://github.com/jokklan/kursusbase2012" target="_blank">
@@ -148,9 +151,44 @@ I spent most of my time living, drinking coffee and develop awesome stuff for pe
     </div>
   </div>
 </div>
-
 <h2>Work</h2>
+<div class="resume-stuff">
+  <div class="resume-point">
+    <h3>Peergrade.io</h3>
+    <h4>Web Developer</h4>
+    <h5>January 2016 - Present</h5>
+  </div>
+
+  <div class="resume-point">
+    <h3>Lokalebasen.dk A/S</h3>
+    <h4>Web Developer</h4>
+    <h5>July 2012 - November 2015</h5>
+  </div>
+
+  <div class="resume-point">
+    <h3>Technical University of Denmark</h3>
+    <h4>Teching Assistant in Introductory Programming</h4>
+    <h5>September 2011 - December 2011</h5>
+  </div>
+
+  <div class="resume-point">
+    <h3>Architectmade</h3>
+    <h4>IT Supporter</h4>
+    <h5>August 2011 - January 2012</h5>
+  </div>
+</div>
+
 <h2>Education</h2>
 
-
-
+<div class="resume-stuff">
+  <div class="resume-point">
+    <h3>Technical University of Denmark</h3>
+    <h4>M.Sc. in Engineering (Computer Science)</h4>
+    <h5>September 2014 - July 2016</h5>
+  </div>
+  <div class="resume-point">
+    <h3>Technical University of Denmark</h3>
+    <h4>B.Sc. in Engineering (Software Technology)</h4>
+    <h5>September 2010 - July 2013</h5>
+  </div>
+</div>
