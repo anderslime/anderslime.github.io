@@ -22,7 +22,7 @@ I spent most of my time living, drinking coffee and develop awesome stuff for pe
     <dt><i class="fa fa-share-alt"></i> Social Networks</dt>
     <dd>
       <a class="twitter" href="https://twitter.com/anderslimes" target="_blank">Twitter</a>,
-      <a class="linkedin" href="https://twitter.com/anderslimes" target="_blank">LinkedIn</a>,
+      <a class="linkedin" href="https://twitter.com/anderslimes" target="_blank">LinkedIn</a>
     </dd>
   </div>
   <div class="about-spec">
@@ -54,7 +54,103 @@ I spent most of my time living, drinking coffee and develop awesome stuff for pe
 
 <h2>Code</h2>
 
-<h2>Résumé</h2>
+<div class="about-code-projects">
+  <div class="about-code-project">
+    <div class="about-code-project-info">
+      <h3 class="about-code-project-titel">Raft Simulation (ft-raft)</h3>
+      <div>
+        <span class="label label-javascript">javascript</span>
+        <span class="label label-javascript">node.js</span>
+        <span class="label label-heroku">heroku</span>
+        <span class="label label-default">distributed systems</span>
+        <span class="label label-default">raft</span>
+      </div>
+      <p class="about-code-project-description">Some description</p>
+      <a href="https://github.com/anderslime/ft-raft" target="_blank">
+        <i class="fa fa-github text-color"></i>
+        anderslime/ft-raft
+      </a>
+    </div>
+  </div>
+  <div class="about-code-project">
+    <div class="about-code-project-info">
+      <h3 class="about-code-project-titel">CV Kickstarter</h3>
+      <div>
+        <span class="label label-python">python</span>
+        <span class="label label-python">flask</span>
+        <span class="label label-heroku">heroku</span>
+        <span class="label label-default">data mining</span>
+      </div>
+      <p class="about-code-project-description">Some description</p>
+      <a href="https://github.com/madsbf/cv-kickstarter" target="_blank">
+        <i class="fa fa-github text-color"></i>
+        madsbf/cv-kickstarter
+      </a>
+    </div>
+  </div>
+  <div class="about-code-project">
+    <div class="about-code-project-info">
+      <h3 class="about-code-project-titel">MarkTex</h3>
+      <div>
+        <span class="label label-javascript">javascript</span>
+        <span class="label label-javascript">node.js</span>
+        <span class="label label-mongo">mongodb</span>
+        <span class="label label-heroku">heroku</span>
+        <span class="label label-default">websockets</span>
+        <span class="label label-default">operational transform</span>
+      </div>
+      <p class="about-code-project-description">Some description</p>
+      <a href="https://github.com/anderslime/marktex" target="_blank">
+        <i class="fa fa-github text-color"></i>
+        anderslime/marktex
+      </a>,
+      <a href="https://github.com/anderslime/marktex-livecollab" target="_blank">
+        <i class="fa fa-github text-color"></i>
+        anderslime/marktex-livecollab
+      </a>,
+      <a href="https://github.com/anderslime/marktex-server" target="_blank">
+        <i class="fa fa-github text-color"></i>
+        anderslime/marktex-server
+      </a>
+    </div>
+  </div>
+  <div class="about-code-project">
+    <div class="about-code-project-info">
+      <h3 class="about-code-project-titel">Moviz</h3>
+      <div>
+        <span class="label label-ruby">ruby on rails</span>
+        <span class="label label-python">python</span>
+        <span class="label label-javascript">javascript</span>
+        <span class="label label-heroku">heroku</span>
+        <span class="label label-default">data mining</span>
+      </div>
+      <p class="about-code-project-description">Some description</p>
+      <a href="https://github.com/anderslime/MoviZ" target="_blank">
+        <i class="fa fa-github text-color"></i>
+        anderslime/MoviZ
+      </a>
+    </div>
+  </div>
+  <div class="about-code-project">
+    <div class="about-code-project-info">
+      <h3 class="about-code-project-titel">DTU Kursusbase</h3>
+      <div>
+        <span class="label label-ruby">ruby on rails</span>
+        <span class="label label-javascript">javascript</span>
+        <span class="label label-heroku">heroku</span>
+        <span class="label label-default">data mining</span>
+      </div>
+      <p class="about-code-project-description">Some description</p>
+      <a href="https://github.com/jokklan/kursusbase2012" target="_blank">
+        <i class="fa fa-github text-color"></i>
+        jokklan/kursusbase2012
+      </a>
+    </div>
+  </div>
+</div>
+
+<h2>Work</h2>
+<h2>Education</h2>
 
 
 
