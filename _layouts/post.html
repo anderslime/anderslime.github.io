@@ -19,4 +19,9 @@ layout: default
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
+
+  <div class="post-comments">
+    <h2 class="post-comments-title">Comments</h2>
+    {% include disqus.html %}
+  </div>
 </article>

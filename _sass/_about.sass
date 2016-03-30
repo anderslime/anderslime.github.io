@@ -1,10 +1,16 @@
-.about-spec-list, .about-code-projects, .resume-stuff
+.about-spec-list, .about-code-projects, .about-resume-stuff
   +natural-page-width
   margin-bottom: 50px
-  overflow: auto
+
+.about-header
+  font-size: 2.5rem
 
 .about-spec-list
   margin-top: 15px
+  float: left
+
+.about-spec-ed
+  font-size: 1.0rem
 
 .about-spec
   float: left
@@ -26,36 +32,6 @@
 .about-spec-profile
   width: 40%
 
-.twitter
-  color: #4099FF
-
-.github
-  color: #000
-
-.linkedin
-  color: #0077B5
-
-.vim
-  color: #007f00
-
-.ruby
-  color: $ruby-color
-
-.python
-  color: $python-color
-
-.elixir
-  color: $elixir-color
-
-.javascript-brand
-  color: $javascript-color
-
-.emberjs
-  color: $ember-color
-
-.phoenix
-  color: $phoenix-color
-
 .about-code-project
   border: 1px solid $grey-color-dark
   border-radius: 2px
@@ -71,10 +47,11 @@
     padding: 0
     margin-bottom: 0
 
-.resume-point
-  margin: 35px 0
+.about-resume-point
+  margin-top: 20px
+  margin-bottom: 50px
 
-  h3, h4, h5
+  h3, h4, h5, h6
     padding: 0
 
   h3
@@ -89,6 +66,9 @@
   h5
     font-weight: 400
     color: darken($grey-color-dark, 20%)
+
+.about-courseware-header
+  margin-top: 8px
 
 .about-tags
   margin: 5px 0

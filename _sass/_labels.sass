@@ -1,5 +1,3 @@
-// Labels
-// --------------------------------------------------
 $label-color: #fff
 $label-link-hover-color: #fff
 
@@ -37,8 +35,11 @@ a.label
     text-decoration: none
     cursor: pointer
 
+.label-category
+  @include label-variant(rgba(#3360A3, 0.8))
+
 .label-default
-  @include label-variant(#337ab7)
+  @include label-variant(#3360A3)
 
 .label-javascript
   @include label-variant($javascript-color)
@@ -75,7 +76,7 @@ a.label
   @include label-variant(#3B4D59)
 
 .label-docker
-  @include label-variant(#4D96A1)
+  @include label-variant(#22b8eb)
 
 .label-couchdb
   @include label-variant(#B83247)

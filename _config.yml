@@ -11,6 +11,8 @@ github_username:  anderslime
 author:
   name: Anders Emil Nielsen
 
+permalink: /:year/:month/:day/:title
+
 # Build settings
 markdown: kramdown
 highlighter: rouge

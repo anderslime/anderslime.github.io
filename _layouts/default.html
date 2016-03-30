@@ -16,7 +16,7 @@
   </head>
   <body>
     <header class="site-header">
-      <a href="{{ site.baseurl }}/about" class="site-header-title-link">
+      <a href="{{ site.baseurl }}/about" data-smooth-link class="site-header-title-link">
         <img class="site-header-image" src="{{ site.baseurl }}/images/anders.jpeg"/>
         <h1 class="site-header-title">Anders Emil Nielsen</h1>
       </a>
@@ -24,13 +24,40 @@
 
     <div class="page-container">
       <nav class="navbar">
-        <a href="{{ site.baseurl }}/" class="navbar-link">Blog</a>
-        <a href="{{ site.baseurl }}/about" class="navbar-link">About</a>
+        <a href="{{ site.baseurl }}/" data-smooth-link class="navbar-link">Blog</a>
+        <a href="{{ site.baseurl }}/about" data-smooth-link class="navbar-link">About</a>
       </nav>
-      <div class="page-content">
+      <div class="page-content" id="content">
         {{ content }}
       </div>
     </div>
+
+    <footer class="footer">
+      <a href="mailto:aemilnielsen@gmail.com" target="_blank" class="footer-link">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+        </span>
+      </a>
+      <a href="https://github.com/anderslime" target="_blank" class="footer-link github">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+        </span>
+      </a>
+      <a href="https://twitter.com/anderslimes" target="_blank" class="footer-link twitter">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+        </span>
+      </a>
+      <a href="https://dk.linkedin.com/in/andersemilnielsen" target="_blank" class="footer-link linkedin">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+        </span>
+      </a>
+    </footer>
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -41,7 +68,7 @@
       ga('create', 'UA-68293665-1', 'auto');
       ga('send', 'pageview');
     </script>
-    <script src="{{ site.baseurl }}/js/highlight.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="{{ site.baseurl }}/js/vendor.js"></script>
+    <script type="text/javascript">hljs.initHighlightingOnLoad();</script>
   </body>
 </html>

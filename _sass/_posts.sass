@@ -2,19 +2,26 @@
   +natural-page-width
   margin-top: 15px
 
+.post-comments
+  +natural-page-width
+  margin-top: 50px
+
+.post-comments-title
+  font-size: 2.0rem
+
 .post
   margin: 20px 0 0 0
 
-.post
-  header
-    margin-bottom: 20px
-    +natural-page-width
+.post-header
+  margin-bottom: 20px
+  +natural-page-width
 
+.post-content
   h2
-    font: 300 24px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif
+    font: 300 24px/1.5 $base-font-family
     color: #111
     &.headline
-      font: normal 13px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif
+      font: normal 13px/1.5em $base-font-family
       margin: -5px 0 40px 0
       color: #b2b9be
       font-size: 13px
@@ -32,7 +39,7 @@
 
 .post-title
   color: #222
-  font: 300 37px/1.4em "Helvetica Neue", Helvetica,Arial,sans-serif
+  font: 300 37px/1.4em $base-font-family
   margin-bottom: 10px
 
 .post-list-item
@@ -41,10 +48,10 @@
 
 .post-list-item-title
   font-size: 2rem
-  font: 300 32px/1.4em "Helvetica Neue", Helvetica,Arial,sans-serif
+  font: 300 32px/1.4em $base-font-family
 
 .post-meta
-  font-size: 0.8rem
+  font-size: 0.9rem
   color: $blue-color
   line-height: 20px
   vertical-align: middle

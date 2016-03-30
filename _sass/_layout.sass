@@ -1,3 +1,5 @@
+// Site
+// --------------------------------------------------
 .site-header
   padding: 30px 60px
   display: flex
@@ -24,10 +26,10 @@
   line-height: 40px
   vertical-align: middle
 
+// Page
+// --------------------------------------------------
 .page-heading
   margin-bottom: 30px
-  background-color: rgba($grey-color, 0.5)
-  border-bottom: 1px solid $grey-color-dark
   padding: 20px 0
 
 .page-heading-title
@@ -59,15 +61,6 @@
   border-width: 15px
   margin-left: -15px
 
-.navbar
-  display: flex
-  justify-content: center
-  border-bottom: 1px solid $toned-color
-
-.navbar-link
-  display: inline-block
-  padding: 20px 15px
-
 .page-content-body
   width: 100%
   margin: 0 auto
@@ -78,3 +71,28 @@
 @include desktop
   .page-content-body
     width: $page-width
+
+// Navbar
+// --------------------------------------------------
+.navbar
+  display: flex
+  justify-content: center
+  border-bottom: 1px solid $toned-color
+
+.navbar-link
+  display: inline-block
+  padding: 20px 15px
+
+// Footer
+// --------------------------------------------------
+.footer
+  +natural-page-width
+  padding-top: 30px
+  padding-bottom: 30px
+  margin-top: 50px
+  border-top: 1px solid $grey-color-dark
+  display: flex
+  justify-content: center
+
+.footer-icon
+  display: inline-block

@@ -17,7 +17,7 @@ layout: default
         <span class="post-meta">
           <span class="post-meta-date">{{ post.date | date: "%b %-d, %Y" }}</span>
           {% for category in post.categories %}
-            <span class="label label-default">{{ category }}</span>
+            <span class="label label-category">{{ category }}</span>
           {% endfor %}
         </span>
         <p class="post-teaser">{% if post.teaser %}{{ post.teaser }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 200 }}{% endif %}</p>
