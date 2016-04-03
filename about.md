@@ -175,6 +175,20 @@ I spent most of my time living, drinking coffee and develop awesome stuff for pe
 <h2 class="about-header">Work</h2>
 <div class="about-resume-stuff">
   <div class="about-resume-point">
+    <h3>Peergrade.io</h3>
+    <h4>Web Developer</h4>
+    <h5>January 2016 - Present</h5>
+    <div class="about-tags">
+      <span class="label label-python">python</span>
+      <span class="label label-python">flask</span>
+      <span class="label label-redis">redis</span>
+      <span class="label label-mongo">mongodb</span>
+      <span class="label label-javascript">javascript</span>
+      <span class="label label-javascript">knockout.js</span>
+    </div>
+  </div>
+
+  <div class="about-resume-point">
     <h3>GoodiePack</h3>
     <h4>Co-Founder and CTO</h4>
     <h5>May 2015 - Present</h5>
@@ -190,19 +204,6 @@ I spent most of my time living, drinking coffee and develop awesome stuff for pe
     </div>
   </div>
 
-  <div class="about-resume-point">
-    <h3>Peergrade.io</h3>
-    <h4>Web Developer</h4>
-    <h5>January 2016 - Present</h5>
-    <div class="about-tags">
-      <span class="label label-python">python</span>
-      <span class="label label-python">flask</span>
-      <span class="label label-redis">redis</span>
-      <span class="label label-mongo">mongodb</span>
-      <span class="label label-javascript">javascript</span>
-      <span class="label label-javascript">knockout.js</span>
-    </div>
-  </div>
 
   <div class="about-resume-point">
     <h3>Lokalebasen.dk A/S</h3>
