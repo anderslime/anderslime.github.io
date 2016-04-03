@@ -172,7 +172,7 @@ I spent most of my time living, drinking coffee and develop awesome stuff for pe
   </div>
 
 </div>
-<h2 class="about-header">Work</h2>
+<h2 class="about-header">Experience</h2>
 <div class="about-resume-stuff">
   <div class="about-resume-point">
     <h3>Peergrade.io</h3>
