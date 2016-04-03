@@ -79,23 +79,6 @@ I spent most of my time living, drinking coffee and develop awesome stuff for pe
   </div>
   <div class="about-code-project">
     <div class="about-code-project-info">
-      <h3 class="about-code-project-titel">CV Kickstarter</h3>
-      <div class="about-tags">
-        <span class="label label-python">python</span>
-        <span class="label label-python">flask</span>
-        <span class="label label-default">data mining</span>
-        <span class="label label-heroku">heroku</span>
-        <span class="label label-bootstrap">bootstrap</span>
-      </div>
-      <p class="about-code-project-description"></p>
-      <a href="https://github.com/madsbf/cv-kickstarter" target="_blank">
-        <i class="fa fa-github text-color"></i>
-        madsbf/cv-kickstarter
-      </a>
-    </div>
-  </div>
-  <div class="about-code-project">
-    <div class="about-code-project-info">
       <h3 class="about-code-project-titel">MarkTex</h3>
       <div class="about-tags">
         <span class="label label-javascript">javascript</span>
@@ -135,8 +118,23 @@ I spent most of my time living, drinking coffee and develop awesome stuff for pe
       </a>
     </div>
   </div>
-
-
+  <div class="about-code-project">
+    <div class="about-code-project-info">
+      <h3 class="about-code-project-titel">CV Kickstarter</h3>
+      <div class="about-tags">
+        <span class="label label-python">python</span>
+        <span class="label label-python">flask</span>
+        <span class="label label-default">data mining</span>
+        <span class="label label-heroku">heroku</span>
+        <span class="label label-bootstrap">bootstrap</span>
+      </div>
+      <p class="about-code-project-description"></p>
+      <a href="https://github.com/madsbf/cv-kickstarter" target="_blank">
+        <i class="fa fa-github text-color"></i>
+        madsbf/cv-kickstarter
+      </a>
+    </div>
+  </div>
   <div class="about-code-project">
     <div class="about-code-project-info">
       <h3 class="about-code-project-titel">Moviz</h3>
