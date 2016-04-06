@@ -83,6 +83,7 @@ I spent most of my time living, drinking coffee and develop awesome stuff for pe
       <div class="about-tags">
         <span class="label label-javascript">javascript</span>
         <span class="label label-javascript">node.js</span>
+        <span class="label label-javascript">angular.js</span>
         <span class="label label-mongo">mongodb</span>
         <span class="label label-default">websockets</span>
         <span class="label label-default">operational transform</span>
