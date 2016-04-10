@@ -21,7 +21,7 @@ later post i will cover specific techniques, how you pick a caching technique
 for your use case and some open source implementations of caching and last
 cover the results of my thesis.
 
-But first - let's start with a motivational speach about caching:
+But first - let's start with a motivational speech about caching:
 
 ## Why should i use caching?
 
@@ -31,7 +31,7 @@ few non-programmers reading this: this means we get a faster application while
 using our servers less.
 
 But like many other programming techniques, caching also comes with challenges
-and thereby trade-offs. I have found caching a a hard challenge that often
+and thereby trade-offs. I have found caching to be a hard challenge that often
 comes with a gotcha here and there. And this is something even <a href="http://martinfowler.com/bliki/TwoHardThings.html" target="_blank">Martin Fowler agrees on this</a>.
 The challenges and trade-offs depends on the caching techniques used, but
 managing **cache invalidation**, **staleness** and **consistency** are
@@ -53,11 +53,11 @@ decides which value to cache and when the cached value is too old to use. The
 technique you decide to use depends on each use case.
 
 When you want to pick a caching technique you have to decide how much of your content
-you want to cache - also called the **granuarity**. In web applications identifying itselfs with the figure above, this scale goes
-from the finest granuarlity found in the raw data to the most coars granularity
-in the HTTP-request send from the web server.
+you want to cache - also called the **granularity**. In web applications identifying itselfs with the figure above, this scale goes
+from the finest granularity found in the raw data to the most coarse granularity
+in the HTTP-request sent from the web server.
 
-Optimally you want to cache until you acheive a satistfactory performance gain, but some content is easier
+Optimally you want to cache until you achieve a satisfactory performance gain, but some content is easier
 to cache than others and some granularities has certain advantages when it
 comes to handling invalidation, which is another important choice. The
 **invalidation technique** decides the **consistency** and **freshness** guarantees.
@@ -78,17 +78,17 @@ key-based invalidation technique is described well in
 The cache can also be invalidated using pre-defined triggers. This could
 be triggers placed manually in the code or callbacks/events from when some data
 is updated. Trigger-based invalidation also ensures to invalidate stale values
-immediatetely, but it requires the developer to ensure that the triggers are
-invoked everytime a given cached value has to be invalidated.
+immediately, but it requires the developer to ensure that the triggers are
+invoked every time a given cached value has to be invalidated.
 
 ### Expiration-based invalidation
 
 If a short period of staleness can be tolerated, the cache can also be managed
-using an expiration-based invalidation techique. This technique works by
+using an expiration-based invalidation technique. This technique works by
 defining some kind of expiration interval after which the cached value should
 be invalidated. This technique makes cache management simple, but it requires
-the sacrifice of staleness and potentially inconstent data.
+the sacrifice of staleness and potentially inconsistent data.
 
 With a little knowledge about the important characteristics and properties on
-application-level caching, we are now capable of evaluating caching techiques
+application-level caching, we are now capable of evaluating caching techniques
 in web applications.
