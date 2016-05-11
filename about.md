@@ -255,7 +255,7 @@ I spent most of my time living, drinking coffee and develop awesome stuff for pe
   <div class="about-resume-point">
     <h3>Technical University of Denmark</h3>
     <h4>M.Sc. in Engineering (Computer Science)</h4>
-    <h5>September 2014 - Present</h5>
+    <h5>September 2014 - July 2016</h5>
     <h6 class="about-courseware-header">Courseware withing:</h6>
     <div class="about-tags">
       <span class="label label-default">fault-tolerant systems</span>
