@@ -5,9 +5,9 @@ description: What i do, my specs and résumé
 permalink: /about
 ---
 
-I'm currently writing my Computer Science thesis at the Technical University of Denmark while working on my company <a href="https://goodiepack.com" target="_blank">GoodiePack</a>.
+I'm currently writing my Computer Science thesis at the Technical University of Denmark.
 
-I spent most of my time living, drinking coffee and develop awesome stuff for people to use.
+I spent most of my time drinking coffee and develop awesome stuff for people to use.
 
 <h2 class="about-header">Specs</h2>
 
@@ -63,14 +63,32 @@ I spent most of my time living, drinking coffee and develop awesome stuff for pe
 <div class="about-code-projects">
   <div class="about-code-project">
     <div class="about-code-project-info">
+      <h3 class="about-code-project-titel">Smache</h3>
+      <p class="about-code-project-description">
+        A push-based caching system written in Python
+      </p>
+      <div class="about-tags">
+        <span class="label label-python">python</span>
+        <span class="label label-default">distributed systems</span>
+      </div>
+      <a href="https://github.com/anderslime/smache" target="_blank">
+        <i class="fa fa-github text-color"></i>
+        anderslime/smache
+      </a>
+    </div>
+  </div>
+  <div class="about-code-project">
+    <div class="about-code-project-info">
       <h3 class="about-code-project-titel">Raft Simulator (ft-raft)</h3>
+      <p class="about-code-project-description">
+        Command line simulator of the Raft consensus algorithm
+      </p>
       <div class="about-tags">
         <span class="label label-javascript">javascript</span>
         <span class="label label-javascript">node.js</span>
         <span class="label label-default">distributed systems</span>
         <span class="label label-default">raft</span>
       </div>
-      <p class="about-code-project-description"></p>
       <a href="https://github.com/anderslime/ft-raft" target="_blank">
         <i class="fa fa-github text-color"></i>
         anderslime/ft-raft
@@ -80,6 +98,9 @@ I spent most of my time living, drinking coffee and develop awesome stuff for pe
   <div class="about-code-project">
     <div class="about-code-project-info">
       <h3 class="about-code-project-titel">MarkTex</h3>
+      <p class="about-code-project-description">
+        Collaborative editor for Markdown/LaTeX
+      </p>
       <div class="about-tags">
         <span class="label label-javascript">javascript</span>
         <span class="label label-javascript">node.js</span>
@@ -90,7 +111,6 @@ I spent most of my time living, drinking coffee and develop awesome stuff for pe
         <span class="label label-heroku">heroku</span>
         <span class="label label-bootstrap">bootstrap</span>
       </div>
-      <p class="about-code-project-description"></p>
       <a href="https://github.com/anderslime/marktex" target="_blank">
         <i class="fa fa-github text-color"></i>
         anderslime/marktex
@@ -112,7 +132,6 @@ I spent most of my time living, drinking coffee and develop awesome stuff for pe
         <span class="label label-ruby">jekyll</span>
         <span class="label label-default">singleton 12 yrs.</span>
       </div>
-      <p class="about-code-project-description"></p>
       <a href="https://github.com/anderslime/anderslime.github.io" target="_blank">
         <i class="fa fa-github text-color"></i>
         anderslime/anderslime.github.io
@@ -129,7 +148,6 @@ I spent most of my time living, drinking coffee and develop awesome stuff for pe
         <span class="label label-heroku">heroku</span>
         <span class="label label-bootstrap">bootstrap</span>
       </div>
-      <p class="about-code-project-description"></p>
       <a href="https://github.com/madsbf/cv-kickstarter" target="_blank">
         <i class="fa fa-github text-color"></i>
         madsbf/cv-kickstarter
@@ -139,10 +157,14 @@ I spent most of my time living, drinking coffee and develop awesome stuff for pe
   <div class="about-code-project">
     <div class="about-code-project-info">
       <h3 class="about-code-project-titel">Moviz</h3>
+      <p class="about-code-project-description">
+        Movie recommendations presented in an interactive network graph
+      </p>
       <div class="about-tags">
         <span class="label label-ruby">ruby on rails</span>
         <span class="label label-python">python</span>
         <span class="label label-javascript">javascript</span>
+        <span class="label label-javascript">d3.js</span>
         <span class="label label-default">data mining</span>
         <span class="label label-bootstrap">bootstrap</span>
         <span class="label label-heroku">heroku</span>
@@ -157,6 +179,9 @@ I spent most of my time living, drinking coffee and develop awesome stuff for pe
   <div class="about-code-project">
     <div class="about-code-project-info">
       <h3 class="about-code-project-titel">DTU Course Base</h3>
+      <p class="about-code-project-description">
+        Reinventing the course finder and planner for DTU
+      </p>
       <div class="about-tags">
         <span class="label label-ruby">ruby on rails</span>
         <span class="label label-javascript">javascript</span>
@@ -171,8 +196,8 @@ I spent most of my time living, drinking coffee and develop awesome stuff for pe
       </a>
     </div>
   </div>
-
 </div>
+
 <h2 class="about-header">Experience</h2>
 <div class="about-resume-stuff">
   <div class="about-resume-point">
@@ -191,7 +216,7 @@ I spent most of my time living, drinking coffee and develop awesome stuff for pe
 
   <div class="about-resume-point">
     <h3>GoodiePack</h3>
-    <h4>Co-Founder and CTO</h4>
+    <h4>Co-Founder</h4>
     <h5>May 2015 - Present</h5>
     <div class="about-tags">
       <span class="label label-ruby">ruby on rails</span>
