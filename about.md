@@ -156,6 +156,21 @@ I spent most of my time drinking coffee and develop awesome stuff for people to 
   </div>
   <div class="about-code-project">
     <div class="about-code-project-info">
+      <h3 class="about-code-project-titel">MR Bogmarked</h3>
+      <div class="about-tags">
+        <span class="label label-ruby">ruby on rails</span>
+        <span class="label label-postgresql">postgresql</span>
+        <span class="label label-javascript">javascript</span>
+        <span class="label label-javascript">knockout.js</span>
+      </div>
+      <a href="http://mrbogmarked.dk" target="_blank">
+        <i class="fa fa-desktop text-color"></i>
+        mrbogmarked.dk
+      </a>
+    </div>
+  </div>
+  <div class="about-code-project">
+    <div class="about-code-project-info">
       <h3 class="about-code-project-titel">Moviz</h3>
       <p class="about-code-project-description">
         Movie recommendations presented in an interactive network graph
